@@ -15,6 +15,16 @@ layout: compress
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 	<div class="elfsight-app-eb416da0-f167-4d57-8f2d-b10cc4cc7bca"></div>
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/media/apple-touch-icon.png">
+	
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QH81546PJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3QH81546PJ');
+</script>
 
     <!-- don't show this site on search engines -->
     {% if site.showinSearchEngines == true %}
@@ -101,19 +111,6 @@ layout: compress
     <script type="text/javascript" src="{{ site.baseurl }}/assets/serverstatus-home.js"></script>
     {% else %}
     <script type="text/javascript" src="{{ site.baseurl }}/assets/serverstatus.js"></script>
-    {% endif %}
-
-    <!-- Google Analytics -->
-    {% if googleAnalyticsID %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleAnalyticsID }}"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ googleAnalyticsID }}');
-    </script>
     {% endif %}
 
 </body>
