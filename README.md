@@ -1,6 +1,7 @@
 # ![Moonrise logo](docs/media/favicon.ico)
 
-## Moonrise
+## Jukebox Games
+[![CodeQL](https://github.com/ilikecheesybread/jukeboxmc/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ilikecheesybread/jukeboxmc/actions/workflows/codeql-analysis.yml)
 
 A simple, lightweight, responsive landing page template for a Minecraft server. Integrates with Discord, Minecraft server status, and GitHub Pages to host a free website.
 
