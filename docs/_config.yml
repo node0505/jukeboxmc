@@ -13,7 +13,7 @@ googleAnalyticsID: G-3QH81546PJ
 # Set basic server info
 serverName: Jukebox
 serverDescription: Join in!
-serverIP: play.jukebox.games:25565
+serverIP: play.jukebox.games:51364
 useBedrockForOnlineStatus: false
 
 
